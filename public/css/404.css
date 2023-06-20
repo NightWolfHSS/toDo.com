@@ -1,0 +1,38 @@
+/*for error pages 404*/
+body {
+	background: #e7f9e9;
+}
+.content { 
+	width: 100%;
+}
+.custom {
+	color: black;
+	padding: 30px;
+	border-left: 1px solid  black;
+}
+
+.error-box {
+	display: block!important;
+	background: url('../images/error/e-page.jpg');
+	background-size: cover;
+	width: 800px;
+	height: 800px;
+}
+
+@media screen and (min-width: 997px) {
+	.controll-res-mob { display: none; background: red; }
+}
+@media screen and (max-width: 996px) 
+{
+	.controll-resolution { display: none; }
+	.controll-res-mob {  }
+	.p-2 {margin: 20px;}
+	.error-box-mob {
+		background: url('../images/error/e-page.jpg');
+		background-size: cover;
+		width: 400px;
+		height: 400px;
+		text-align: center;
+		margin: 0 auto;
+	}
+}
