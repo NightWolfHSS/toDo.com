@@ -15,5 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 /*index.page*/
 Route::get('/', 'MainController@index');
+Route::get('/singin', 'MainController@singin');
+Route::get('/about', 'MainController@about');
+Route::get('/sec', 'MainController@politic');
+
+
+
+
+
 /*test page*/
 Route::get('/test', 'MainController@test');
