@@ -1,4 +1,4 @@
-<footer>
+<footer class="foo">
 	<div class="container">
 		<address>
 	  		<strong>Разработчик</strong><br>

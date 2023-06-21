@@ -25,3 +25,5 @@ Route::get('/sec', 'MainController@politic');
 
 /*test page*/
 Route::get('/test', 'MainController@test');
+
+/*market ...*/

@@ -2,7 +2,6 @@
 * MAIN STYLE for laravel tasks manager
 * version 1.7
 */
-
 /*body {}*/
 header {
 	background: url("../images/h9.jpg");
@@ -58,7 +57,25 @@ header {
 .maps {
 	margin: 50px 0;
 }
+
+
+/*signin page*/
+.h-st { margin-bottom: 50px; }
+.wrapper {
+	
+}
+.line_space {
+	height: 360px;
+}
+.fxt {
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+
+
 footer {
+	position: relative;
 	border-top: 5px solid #ff7e67;
 	background: #627280;
 	background: radial-gradient(circle at 10% 20%, rgb(98, 114, 128) 0%, rgb(52, 63, 51) 90.1%);
@@ -73,11 +90,9 @@ footer {
 	text-align: left;
 	height: 100px;
 	width: 100px;
-	background: red;
 	object-fit: cover;
 }
 .box-fl img:hover { border: 4px solid #fdc57b; cursor: pointer;}
-
 .orange { color: white; }
 .orange:hover { color: orange; }
 
