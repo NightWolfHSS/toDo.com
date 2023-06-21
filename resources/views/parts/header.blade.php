@@ -5,7 +5,9 @@
 	<link rel="icon" href="{{ URL::asset('/images/fav/favicon.ico') }}" type="image/x-icon"/>
 	<link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}">
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script defer src="{{ asset('js/app.js') }}"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>  
 	<header>
@@ -21,15 +23,15 @@
 		<div class="navi-background">
 			<div class="container">
 				<nav class="navbar navbar-expand-lg navbar-light bg-light custom-theme">
-				  <a class="navbar-brand" href="#">Меню</a>
+				  <a class="navbar-brand" href="/">Меню</a>
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>
 				  </button>
 				  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				    <div class="navbar-nav">
-				      <a class="nav-item nav-link active" href="#">Главная<span class="sr-only"></span></a>
-				      <a class="nav-item nav-link" href="#">Войти</a>
-				      <a class="nav-item nav-link" href="#">О нас</a>
+				      <a class="nav-item nav-link active" href="/">Главная<span class="sr-only"></span></a>
+				      <a class="nav-item nav-link" href="/singin">Войти</a>
+				      <a class="nav-item nav-link" href="about">О нас</a>
 				      <a class="nav-item nav-link disabled" href="#">для спонсоров</a>
 				    </div>
 				  </div>
