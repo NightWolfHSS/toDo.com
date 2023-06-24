@@ -72,6 +72,65 @@ header {
 	border-radius: 15px;
 }
 
+/*about page*/
+.fix-content {
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 160px;
+}
+.au-image {
+	background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
+	overflow: hidden;
+	margin: 20px 0;
+	border-radius: 4px;
+}
+.au-image img { 
+	padding: 10px;
+	object-fit: cover;
+	height: 200px;
+	width: 100%;
+}
+
+.custom-video { 
+	position: relative;
+    text-align: center;
+    color: grey;
+	padding: 6px;
+}
+
+.content-fix {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box-secont-content {
+	color:#fbf2d5;
+	border-radius: 10px;
+	background: linear-gradient(to right, #434343 0%, black 100%);
+	padding: 30px;
+	margin-bottom: 30px;
+}
+@media screen and (max-width: 514px)
+{
+	.content-fix { font-size: 12px; overflow-x: scroll; height: 120px;}
+}
+
+.content-media-box {
+	overflow: hidden;
+	border-radius: 20px;
+	position: relative;
+	z-index: -1;
+}
+
+.hide-video {
+	z-index: -12;
+	opacity: 0.1;
+}
+
+.hide-video video { vertical-align: top; }
 
 
 footer {
