@@ -2,6 +2,8 @@
 <html lang="en">
 @include("parts.header")
 
+<!-- alert error if error - success redirect your profile -->
+
 <section  style="margin: 50px 0;">
 	<div class="container">
 		<h1 class="h-st" style="color: #7fa99b;">Регистрация | Вход</h1>

@@ -20,10 +20,14 @@ Route::get('/about', 'MainController@about');
 Route::get('/sec', 'MainController@politic');
 
 
-
-
-
 /*test page*/
 Route::get('/test', 'MainController@test');
 
 /*market ...*/
+
+/*for admin login*/
+/*for users login*/
+
+/* cheack panel only admin*/
+
+
